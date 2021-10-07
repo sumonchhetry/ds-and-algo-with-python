@@ -1,0 +1,75 @@
+                        # DS and algorithm in Python #
+
+1. What is data structure ?
+A. Data structures are different ways to organise the data on a machine which can be used efficiently.
+
+2. What is algorithm ?
+A. A set of instructions to complete a certain task especially by computers.
+
+3. What makes a good algorithm ?
+A. Correctness and Efficiency
+
+4. The importance of DS and algorithm ?
+A. As a software developer or computer scientist it is our responsibility to perform operations on data, DS and algorithm helps us in that process.
+
+5. How many types of Data Structures are there ?
+A.  1. Primitive
+    2. Non Primitive
+
+    5.1 Types of primitive data structure:
+    a. Integer
+    b. Float
+    c. Character
+    d. String
+    e. Boolean
+
+    5.2 Types of non primitive data structure:
+    a. Linear
+    b. Non Linear
+
+    5.2.a Types of Linear data structure:
+    a. Static
+    b. Dynamic
+
+    5.2.b Types of Non Linear data structure:
+    a. Tree
+    b. Graph
+
+    5.2.a.a Types of Leanier Static data structure:
+    a. Array
+
+    5.2.a.b Types of Leanier Dynamic data structure:
+    a. Linked List
+    b. Stack
+    c. Queue
+
+6. Different types of Algorithm:
+A.  a. Simple recursive algorithm
+    b. Devide and conqure algorithm
+    c. Dynamic programming algorithm
+    d. Greedy algorithm
+    e. Brute force algorithm
+    f. Randomized algorithm
+
+7. What is recursion ?
+A. It is a way of solving a problem by having a function which call ifself.
+Where we try the same operations with different output and everytime we we call this function
+we just try to make the problem smaller by trying different input scenarios.
+
+8. 3 steps to write better recursive functions
+    a. Recursive case - the flow - here we describe the initial function.
+    b. Base case - The stopping criterion - here we insert the logic which if met the function will stop.
+    c. Unintentional case - the constraint - here we set some boundaries for the function.
+
+9. Why we need recursion ?
+A. Recursive functions help us to breakdown a bigger problem in smaller sub problems and it becomes easier to find a solution that way.
+
+10. Used case scenarios of recursion
+A. Recurion or recursive function generally used in many algorithms like Devide and Conquer Algorithm, Greedy Algorithm and Dynamic Programming.
+
+11. Some situation where recursive functions mostly get used
+A.  a. When we want to breakdown a bigger problem in smaller sub problems.
+    b. When we are fine with extra overload(time and space) that comes with it.
+    c. When we need a quick working solution instead of an efficient one.
+    d. When reversing a tree.
+    e. When we use memoization(Memoization is a technique of recording the intermediate results so that it can be used to avoid repeated calculations and speed up the programs. It can be used to optimize the programs that use recursion. In Python, memoization can be done with the help of function decorators.).
