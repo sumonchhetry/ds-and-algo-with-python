@@ -1,0 +1,35 @@
+Big O is the language and metric we use to describe the efficiency of algorithms
+
+Different types of big O notation
+a) Big O
+b) Big Omega
+c) Big theta
+
+a) It is a complexity that is going to be less or equal to the worst case.
+
+b) It is a complexity that is going to be at least more than the best case scenario
+
+c) It is a complexity that is within bounds of the wors and the best case.
+
+Different complexity their name and samples:
+
+1. O(1) - aka Constant time complexity - Which means that for any given input the execution time will not change.
+2. O(N) - aka Linear time complexity - This means the complexity will grow in direction propertionate to the size of input data.
+3. O(LogN) - aka Logarithmic time complexity - This means the coplexity refers to an algorithm that runs in a proportionally to the logarithm of the input size.
+4. O(N^2) - aka Quadretic time complexity - Represent an algorithm whose performance directly propertional to the square size of the input datasets. It's like linear data stucture but here the time is inceasing quadretic. This time complexity starts off very shallow rising at an ever increasing rate until end.
+5. O(2^N) - aka Exponencial time complexity - Exponencial time complexity denotes algorithm, whose growth doubles with each addition to the inputs, The time complexity starts off very shallow rising of an ever increaing rate until the end.
+
+** Best to worst time complexity chart
+1. O(1), O(logN)
+2. O(N)
+3. O(N^2)
+4. O(2^N)
+5. O(N!)
+
+Q. How to measure the code using the Big O ?
+A.
+Rule 1 - Any assignment statements and if statements that are executed once regardless of the size aka O(1).
+Rule 2 - A simple for loop from O to n(with no internal loop) aka O(n)
+Rule 3 - A nested loop of the same type takes qudretic time complexity aka O(n^2)
+Rule 4 - A loop, in which the controlling parameter is devided by two at each step aka O(logN)
+Ryle 5 - When dealing with miltiple statements just add them up.
