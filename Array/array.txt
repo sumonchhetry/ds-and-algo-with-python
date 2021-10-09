@@ -8,18 +8,36 @@ Elements of an array are located in contiguous.
 Each element of an array has a unique index.
 The size of an array is predefined and cannot be modified.
 
-Types of Array
+**Types of Array
+Q.    One dimensional array : an array with a bunch of values having been declared with a single index.
+    ex. a[i] between 0 and n.
 
-One dimensional array : an array with a bunch of values having been declared with a single index.
-ex. a[i] between 0 and n.
+    Two dimensional array : an array with a bunch of values having been declared with a double index.
+    ex. a[i][j] i and j between o and n. first row then collumn.
 
-Two dimensional array : an array with a bunch of values having been declared with a double index.
-ex. a[i][j] i and j between o and n. first row then collumn.
+    Three dimensional array : an array with a bunch of values having been declared with a triple index.
+    ex. a[i][j][k] i, j and k between o and n. first depth then row then collumn.
 
-Three dimensional array : an array with a bunch of values having been declared with a triple index.
-ex. a[i][j][k] i, j and k between o and n. first depth then row then collumn.
-
-Creating an array
+** Creating an array
 Assign it to a variable
 Define of element that it will stored
 Define it's size (the maximum numbers of element)
+
+*** Time and Space complexity in 2D array
+
+Operation                               | Time Complexity   | Space Complexity
+Creating an Empty Array                 | O(1)              | O(mn)
+Inserting acollumn or row in an array   | O(mn)/O(1)        | O(1)
+Traversing a given array                | O(mn)             | O(1)
+Accessing a given array                 | O(1)              | O(1)
+Searching a given array                 | O(mn)             | O(1)
+Deleting a given array                  | O(mn)/O(1)        | O(1)
+
+When to use array
+- To store multiple variables of same data type
+- Random Access
+
+
+When to avoid array
+- Same data type elements
+- Reserve memory
