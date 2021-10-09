@@ -1,0 +1,56 @@
+List : A list is a data structure that holds an ordered collection of items.
+the list of items should be closed in []
+the vlues inside list called values or item
+
+we can put any kind of data inside a list and even we can create a list inside the lists
+
+**Lists are 0 based
+**By using in operator we can find out if an element exits in the list or not
+**if we put (-) value to access a list it will starts from the last element in the list
+** We can't traverse through an empty list
+** [] operator use the for index and the value gets assigned in that index location inside the list
+
+** Time and Space complexity for inserting/Updating lists is O(1)
+
+** insert method take two parameters first is index, second is value
+** append helps us to add new items in the list, and it always adds in the end
+** extend method is used to add a new list in the previous list
+
+** Time complexity for insert method in list is O(n)
+** Time complexity for append method in list is O(1)
+** for insert and append space coplexity is O(1)
+
+** Time and Space complexity for extend method in lists is O(n)
+
+** for slicing a list we use [from:to-1]
+**slicing is 1 based
+
+**pop() method also used for deleting an item from the list they are 0 based
+**if you don't provide any index inside the pop method then it will deleted the last element from the list
+
+** del method is used to delete from the list the method use [] indexing , it is 0 based
+** in del method we can use slicing to delete a certain elements from the list
+** remove method useful when we want to delete a specific element
+
+** Time complexity for pop method in list is O(1)/O(n)
+** Time complexity for del method in list is O(n)
+** for insert and remove space coplexity is O(n)
+
+**Similarities of Array and List
+** Both data structures are mutable
+**Both can be indexed and iterated through
+**They can be both sliced
+
+
+** you can do arithmatic operations on array but not on list
+** in array all the data types has to be same, in list you can input any data types you want
+
+
+** Time and Space complexities in Python List
+Operations                      | Time Complexity   | Space coplexity
+Creating a list                 | O(1)              | O(n)
+Inserting a value in a list     | O(1)/O(n)         | O(1)
+Traversing a given list         | O(n)              | O(1)
+Accessing a given cell          | O(1)              | O(1)
+Searching a given value         | O(n)              | O(1)
+Deleting a given value          | O(1)/O(n)         | O(1)
