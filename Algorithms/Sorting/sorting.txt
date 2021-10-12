@@ -1,0 +1,6 @@
+What is sorting ?
+Sorting is arranging data is particular oder either ascending or descending
+
+** Different types of sorting
+1. Bubble sort : Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
+

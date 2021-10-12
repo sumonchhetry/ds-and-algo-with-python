@@ -79,11 +79,11 @@
 #  get the remainder for the binary digit
 #  repeat the step until the quotient is equal to 0
 # f(n) = n mod 2 + 10 * f(n/2)
-def decimalToBinary(n):
-    assert int(n) == n, "The parameter must be an iteger only"
-    if n == 0:
-        return 0
-    else:
-        return n % 2 + 10 * decimalToBinary(int(n/2))
+# def decimalToBinary(n):
+#     assert int(n) == n, "The parameter must be an iteger only"
+#     if n == 0:
+#         return 0
+#     else:
+#         return n % 2 + 10 * decimalToBinary(int(n/2))
 
-print(decimalToBinary(1.2))
+# print(decimalToBinary(1.2))

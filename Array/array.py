@@ -190,5 +190,5 @@ print(twoDArray)
 # print(searchTDArray(twoDArray, 9))
 
 # deletion of an element from two dimensional array
-newTDArray = np.delete(twoDArray, 2, axis=0)
-print(newTDArray)
+# newTDArray = np.delete(twoDArray, 2, axis=0)
+# print(newTDArray)

@@ -15,7 +15,7 @@
 # print(empty)
 
 # Accessing/Traversing List
-shoppingList = ["Milk", "Cheese", "Butter"]
+# shoppingList = ["Milk", "Cheese", "Butter"]
 # print(shoppingList[1])
 # checking if the element exists in the list or not with in operator
 # print("Milk" in shoppingList)
@@ -115,7 +115,7 @@ shoppingList = ["Milk", "Cheese", "Butter"]
 # a = [0,1,2,3,4,5]
 # print(min(a))
 
-# sum method is to return the su of all items in the list
+# sum method is to return the sum of all items in the list
 # a = [0,1,2,3,4,5]
 # print(sum(a))
 
@@ -147,9 +147,9 @@ shoppingList = ["Milk", "Cheese", "Butter"]
 # print(delimiter.join(b))
 
 # Array vs List
-import numpy as np
+# import numpy as np
 
-myArray = np.array([1,2,3,4,5,6])
-myList = [1,2,3,4,5,6,7,8]
+# myArray = np.array([1,2,3,4,5,6])
+# myList = [1,2,3,4,5,6,7,8]
 
-print(myArray/2)
+# print(myArray/2)
