@@ -57,6 +57,6 @@ list = [0,1,2,3,4,5,6,7,8,9]
 # list[1] = 3
 
 # delete and element
-del list[0]
+# del list[0]
 
 print(list)

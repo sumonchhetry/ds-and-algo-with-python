@@ -1,0 +1,13 @@
+What is a linked list ?
+A: Linked list is a form of sequential collection and it does not have to be in order. A linked list is made up of independent nodes that may contain any type of data and each node has a reference to the next node in the link.
+
+elements of linked list are independent objects
+the size of a linked list is not predefined
+insertion and removals in linked list are very efficient
+accessing an element is very efficient in arrays
+
+Types of linked list
+1. Singly linked list
+2. Circular linked list
+3. Doubly linked list
+4. Circular doubly linked list

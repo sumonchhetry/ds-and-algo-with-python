@@ -65,19 +65,19 @@
 # findMaxProduct(myArray)
 
 # Is Unique : Implement an algorithm to determine if a list has all unique characters, using python list
-myList = [1, 16, 27, 2, 35, 26, 85, 16, 57, 25, 69, 45]
+# myList = [1, 16, 27, 2, 35, 26, 85, 16, 57, 25, 69, 45]
 
-def isUnique(list):
-    newList = []
-    for i in list:
-        if i in newList:
-            print(i)
-            return False
-        else:
-            newList.append(i)
-    return True
+# def isUnique(list):
+#     newList = []
+#     for i in list:
+#         if i in newList:
+#             print(i)
+#             return False
+#         else:
+#             newList.append(i)
+#     return True
 
-print(isUnique(myList))
+# print(isUnique(myList))
 
 # Permutation
 # def permutation(list1, list2):
@@ -189,3 +189,26 @@ print(isUnique(myList))
  
 #     return v
 # print(fun(data[0]))
+
+# write a function which takes in a string and returns the count of each character in the string
+
+# Step - 1
+charCount = ('bbbb')
+charCount = ('Hello')
+
+# step -2 Complex example
+"My name is Sumon"
+
+# step - 3 empty
+charCount('')
+
+# Step - 4 invalid input
+charCount(1)
+
+def charCount(str):
+    # declare an object to return at the end
+    # loop over the string
+    # if the character is in out object add one to the value
+    # if the character is not in out object then add that char to our object with the value of one
+    # return an object
+    
